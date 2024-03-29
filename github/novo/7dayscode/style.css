@@ -1,0 +1,381 @@
+:root{
+    --cor-vermelha:#8E2424;
+    --cor-cinza: #3A404E;
+    --fonte-padrao:'Inter',sans-serif;
+    --cor-preta: #101828;
+    --cor-border: #EAECF0;
+}
+
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+
+
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+}
+
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.navbar .logo{
+    display: flex;
+    margin-top: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar .logo .nomesite{
+    color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.navbar .logo p{
+    font-weight: 500;
+    font-size: 18px;
+    
+
+}
+
+
+.navbar .navegacao{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+.navegacao ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao ul li {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.navegacao ul li:hover{
+    text-decoration: underline;
+    color: #8E2424;
+}
+
+
+.navbar .botoes{
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.btn-entrar{
+    border-style: none;
+    padding: 10px;
+    margin: 30px;
+    font-size: 20px;
+    border-style: none;
+    background-color: #FFFFFF;
+    border-bottom: #8E2424;
+}
+.btn-cadastrar{
+    color: #FFFFFF;
+    padding: 10px 18px 10px 18px;
+    margin: 30px;
+    font-size: 20px;
+    background-color: var(--cor-vermelha);
+    border-radius: 8px;
+}
+
+.btn-cadastra:hover{
+
+    background-color: orangered;
+    text-decoration: solid;
+    
+}
+
+.cabecalho{
+    background-color: #FFFFFF;
+    margin: 96px 0px 96px 0px;
+}
+
+.cabecalho h2{
+    color: var(--cor-vermelha);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.cabecalho h1{
+    color: #101828;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-size:48px ;
+}
+.cabecalho p{
+    display: flex;
+    padding:12px;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 20px;
+    color: var(--cor-cinza);
+
+
+}
+.metricas{
+    display: block;
+    margin: 100px;
+    justify-content: space-between;
+    
+}
+
+.metricas ul{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    
+    
+}
+
+.metricas ul li{
+    width: 280px;
+    height: 170px;
+    display: flex;
+    text-align: start;
+    gap: 8px;
+
+}
+
+.metricas .valor {
+    color: var(--cor-vermelha);
+    font-family: var(--fonte-padrao);
+    font-weight: 600px;
+    font-size: 60px;
+    text-align: start;
+
+}
+.metricas .title{
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: var(--fonte-padrao);
+    color: var(--cor-preta);
+    padding: 18px;
+    text-align: start;
+}
+
+.metricas .subtitle{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: var(--fonte-padrao);
+    color: var(--cor-cinza);
+    padding: 16px;
+    text-align: start;
+}
+
+
+
+.vagas .talentos{
+    margin-top: 30px;
+    margin: 30px;
+    display: block;
+}
+
+.vagas .talentos h2{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-vermelha);
+    padding: 16px;
+    
+}
+
+.vagas .talentos h1{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-preta);
+    font-size: 36px;
+    font-weight: 600px;
+    height: 44px;
+    margin: 25px;
+}
+
+.vagas .talentos p{
+    display: block;
+    text-align: center;
+    color: var(--cor-cinza);
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+.vagas .talentos .img-talentos{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+
+/*-----------VAGAS---------*/
+
+.container{
+    display: flex;
+    justify-content:center;
+    
+    }
+.container .titler{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+}
+
+.container .jobs {
+    border: 2px solid var(--cor-border);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 24px;
+    width:(136px) ;
+    height: Fill (768px);
+    
+
+}
+
+.container  h1{
+    margin: 15px;
+    color: var(--cor-preta);
+    
+    
+}
+
+.container .jobs .info {
+    display: flex;
+    margin: 10px;
+    gap:50px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: var(--cor-cinza);
+}
+
+.avatar{
+    display: block;
+    justify-content: center;
+}
+
+.content h2{
+    text-align: center;
+    color: var(--cor-vermelha);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.content .sub{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color:var(--cor-preta);
+}
+
+.content .avatar {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.info-avatar .name-dev{
+    display: block;
+    text-align: center;
+    color: var(--cor-preta);
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+
+.info-avatar p{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400px;
+    color: var(--cor-cinza);
+
+}
+
+/*----------RODAPE--------*/
+
+.rodape {
+    display: block;
+    margin: 20px 0 0 25px;
+    
+}
+
+.rodape .info-rodape .title{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    color: var(--cor-preta);
+}
+
+
+.rodape .info-rodape .sub-info{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500px;
+    color: var(--cor-cinza);
+}
+
+.email-capture {
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+.email-capture input{
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    width: 360px;
+    
+}
+
+.email-capture button{
+    background-color:var(--cor-vermelha);
+    color: #FFFFFF;
+    padding: 12px 14px 12px 16px;
+    border-radius: 8px;
+    width: 115px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-cinza);
+}
+
+/*Criado por Walison Bruno -*/
